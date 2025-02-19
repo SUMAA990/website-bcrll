@@ -1,1 +1,243 @@
 # website-bcrll
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PT Bangun Cipta Raya Langgeng - Perusahaan konstruksi dan finansial terpercaya di Indonesia">
+    <meta name="keywords" content="konstruksi, pembiayaan, mekanikal, kontrak, investasi, Indonesia">
+    <title>PT Bangun Cipta Raya Langgeng</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* (CSS tetap sama seperti sebelumnya) */
+    </style>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar" id="navbar">
+            <div class="logo">
+                <img src="logo_BCRL-removebg-preview (2) (1).png" alt="PT BCRL Logo" style="height: 60px;"> <!-- Ganti dengan path logo Anda -->
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        
+        <div class="hero-content" id="home">
+            <h1>PT Bangun Cipta Raya Langgeng</h1>
+            <p class="hero-subtitle">Membangun Masa Depan Indonesia dengan Inovasi dan Integritas</p>
+            <a href="#contact" class="cta-button">Hubungi Kami</a>
+        </div>
+    </header>
+    
+    <!-- Services Section -->
+    <section id="services">
+        <div class="section-title">
+            <h2>Layanan Kami</h2>
+            <p>Solusi terpadu untuk kebutuhan konstruksi dan finansial</p>
+        </div>
+        
+        <div class="services-container">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3 class="service-title">Investasi</h3>
+                <p class="service-description">Perusahaan telah berinvestasi sebesar 1.2 T dengan mitra terpercaya. Kami memastikan nilai investasi yang berkelanjutan.</p>
+                <a href="https://www.example.com/investasi" class="service-link">Pelajari Lebih Lanjut</a> <!-- Ganti dengan URL yang sesuai -->
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-building"></i>
+                </div>
+                <h3 class="service-title">Konstruksi</h3>
+                <p class="service-description">Kami menyediakan layanan konstruksi berkualitas tinggi dengan standar keselamatan internasional dan teknologi terkini.</p>
+                <a href="https://www.example.com/konstruksi" class="service-link">Pelajari Lebih Lanjut</a> <!-- Ganti dengan URL yang sesuai -->
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <h3 class="service-title">Mekanikal</h3>
+                <p class="service-description">Solusi mekanikal komprehensif untuk bangunan modern, termasuk sistem HVAC, pengelolaan air, dan instalasi listrik.</p>
+                <a href="https://www.example.com/mekanikal" class="service-link">Pelajari Lebih Lanjut</a> <!-- Ganti dengan URL yang sesuai -->
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-money-bill-wave"></i>
+                </div>
+                <h3 class="service-title">Pembiayaan</h3>
+                <p class="service-description">Kami menawarkan solusi pembiayaan inovatif dan handal dengan fleksibilitas skema pembayaran sesuai kebutuhan.</p>
+                <a href="https://www.example.com/pembiayaan" class="service-link">Pelajari Lebih Lanjut</a> <!-- Ganti dengan URL yang sesuai -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="images/tentang-kami.jpg" alt="PT BCRL Office"> <!-- Ganti dengan gambar tentang perusahaan -->
+            </div>
+            
+            <div class="about-content">
+                <h2>Tentang Kami</h2>
+                <p>PT Bangun Cipta Raya Langgeng adalah perusahaan konstruksi dan finansial terkemuka yang didirikan pada tahun 2010. Selama lebih dari satu dekade, kami telah menjadi mitra tepercaya dalam mewujudkan visi klien menjadi kenyataan.</p>
+                
+                <p>Dengan pengalaman yang luas dan tim profesional yang berdedikasi, kami berkomitmen untuk memberikan layanan berkualitas tinggi dan solusi inovatif untuk setiap proyek.</p>
+                
+                <div class="values-container">
+                    <div class="value-item">
+                        <h4>Integritas</h4>
+                        <p>Transparansi dan kejujuran</p>
+                    </div>
+                    <div class="value-item">
+                        <h4>Inovasi</h4>
+                        <p>Solusi kreatif</p>
+                    </div>
+                    <div class="value-item">
+                        <h4>Keunggulan</h4>
+                        <p>Standar tertinggi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+        <div class="section-title">
+            <h2>Proyek Unggulan</h2>
+            <p>Beberapa karya terbaik yang telah kami selesaikan</p>
+        </div>
+        
+        <div class="project-cards">
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('images/proyek1.jpg')"></div> <!-- Ganti dengan gambar proyek -->
+                <div class="project-overlay">
+                    <h3 class="project-title">Gedung Perkantoran Modern</h3>
+                    <p class="project-description">Pembangunan gedung 20 lantai dengan desain hemat energi di Jakarta Selatan.</p>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('images/proyek2.jpg')"></div> <!-- Ganti dengan gambar proyek -->
+                <div class="project-overlay">
+                    <h3 class="project-title">Perumahan Elite</h3>
+                    <p class="project-description">Kompleks perumahan premium dengan 150 unit di Bandung Utara.</p>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('images/proyek3.jpg')"></div> <!-- Ganti dengan gambar proyek -->
+                <div class="project-overlay">
+                    <h3 class="project-title">Jembatan Penghubung</h3>
+                    <p class="project-description">Konstruksi jembatan sepanjang 1.2km menghubungkan dua pulau di Kepulauan Riau.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="section-title">
+            <h2>Hubungi Kami</h2>
+            <p>Diskusikan kebutuhan proyek Anda dengan tim kami</p>
+        </div>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Kantor Pusat</h4>
+                        <p>Gedung Menara Mulia Lt. 15, Jl. Gatot Subroto No.30, Jakarta Selatan 12710</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Telepon</h4>
+                        <p>+62 21 5678 9012</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Email</h4>
+                        <p>info@bcrayalanggeng.id</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Jam Operasional</h4>
+                        <p>Senin - Jumat: 08.00 - 17.00<br>Sabtu: 09.00 - 13.00</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Nama Lengkap" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control" placeholder="Nomor Telepon">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Pesan Anda" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="copyright">
+                &copy; 2025 PT Bangun Cipta Raya Langgeng. Hak Cipta Dilindungi.
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // (JavaScript tetap sama seperti sebelumnya)
+    </script>
+</body>
+</html>
